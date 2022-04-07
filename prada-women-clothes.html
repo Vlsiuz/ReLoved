@@ -1,0 +1,153 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css"
+    integrity="sha512-9usAa10IRO0HhonpyAIVpjrylPvoDwiPUiKdWk5t3PyolY1cOd4DSE0Ga+ri4AuTroPR5aQvXU9xC6qOPnzFeg=="
+    crossorigin="anonymous" referrerpolicy="no-referrer" />
+<link rel="stylesheet" href="https://code.jquery.com/ui/1.13.1/themes/base/jquery-ui.css">
+<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+<link rel="stylesheet" href="style.css">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/fancybox/3.5.7/jquery.fancybox.css">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Titillium+Web:wght@200&display=swap" rel="stylesheet">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Secular+One&display=swap" rel="stylesheet">>
+    <title>Document</title>
+</head>
+
+<body>
+    <header class="main-header">
+        <div class="container">
+            <nav class="main-menu">
+                <ul>
+
+
+                    <li class="dropdown">
+                        <a href="mens.html" class="dropbtn"><i class="fa-solid fa-person"> </i></a>
+                        <div class="dropdown-content">
+                            <a href="men-shoes.html">Shoes</a>
+                            <a href="men-clothes.html">Clothes</a>
+                            <a href="men-accessories.html">Accessories</a>
+                        </div>
+                    </li>
+                    <li class="dropdown">
+                        <a href="women.html" class="dropbtn"><i class="fa-solid fa-person-dress"></i></a>
+                        <div class="dropdown-content">
+                            <a href="women-shoes.html">Shoes</a>
+                            <a href="women-clothes.html">Clothes</a>
+                            <a href="women-accessories.html">Accessories</a>
+                        </div>
+                    </li>
+                </ul>
+
+            </nav>
+            <a href="#" class="left-filter-bar" ><i id="toggle" class="fa-solid fa-align-left"></i></a>
+            <a href="index.html" class="logo">
+                <img src="images/logo_size2.jpg" alt="">
+            </a>
+            <nav class="menu">
+                <ul>
+                    <li>
+                        <a href="aboutus.html">
+                            <i class="fa-solid fa-people-carry-box"></i>
+                        </a>
+                    </li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+    <div class="place-holder-mens">
+    </div>
+    <div class="hide-menu">
+        <a href="mens.html">
+            <div class="men-hide-menu">Mens</div>
+        </a>
+        <a href="women.html">
+            <div class="women-hide-menu">Women</div>
+        </a>
+    </div>
+    <main class="main-div">
+        <div class="sidebar-product">
+            <ul>
+                <li style="background-image: url(images/prada-202677.png);"></li>
+                <li>Prada Rhinestone-Embellished Shift Dress</li>
+                <li>8046лв.</li>
+                <li>Размер: S</li>
+                <div id="dialog" title="Information">
+                    <p style="font-size: 1.2rem;"><a href="aboutus.html"> malaguti529@gmail.com</a></p>
+                </div>
+
+                <button id="opener">Buy now</button>
+
+            </ul>
+
+
+
+        </div>
+        <div class="pic-product col-sm-10">
+            <div class="container-fluid  col-sm-12 ">
+                <div class="row ">
+                    <div class="item ">
+                        <a href="images/women-clothes/prada.jpg" class="fancybox" data-fancybox="gallery1">
+                            <img src="images/women-clothes/prada.jpg" width="100%" height="100%">
+                        </a>
+                    </div>
+
+                </div>
+                <div class="second-div" >
+
+
+                    <div class="row ">
+                        <div class="item ">
+                            <a href="images/women-clothes/prada2.jpg" class="fancybox" data-fancybox="gallery1">
+                                <img src="images/women-clothes/prada2.jpg" width="100%" height="100%">
+                            </a>
+                        </div>
+
+                    </div>
+                    <div class="row ">
+                        <div class="item ">
+                            <a href="images/women-clothes/prada3.jpg" class="fancybox" data-fancybox="gallery1">
+                                <img src="images/women-clothes/prada3.jpg" width="100%" height="100%">
+                            </a>
+                        </div>
+
+                    </div>
+                </div>
+            </div>
+
+
+        </div>
+
+
+
+    </main>
+    <div class="footer">
+        <ul class="div2">
+            <li class="company">© 2022 Company, Inc</li>
+            <div class="bg-img" style="background-image: url(images/logo_size_invert.jpg);">
+            </div>
+            <li class="footer-nav">
+                <ul>
+                    <Li><a href="index.html"> Home</a></Li>
+                    <Li><a href="aboutus.html"> About</a></Li>
+                    <li><a href="#">&#x21e7;</a></li>
+                </ul>
+            </li>
+        </ul>
+    </div>
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/fancybox/3.5.7/jquery.fancybox.min.js"></script>
+    <script src="https://code.jquery.com/ui/1.13.1/jquery-ui.min.js"
+        integrity="sha256-eTyxS0rkjpLEo16uXTS0uVCS4815lc40K2iVpWDvdSY=" crossorigin="anonymous"></script>
+    <script src="main.js"></script>
+</body>
+
+</html>
