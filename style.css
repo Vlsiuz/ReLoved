@@ -32,6 +32,7 @@ body {
     display: none;
     border-radius: 5px;
     border: 1px solid black;
+    margin-bottom: -15px;
 }
 
 .hide-menu a {
@@ -198,7 +199,7 @@ body {
 /* Main content */
 
 .place-holder {
-    margin-bottom: 70px;
+    margin-bottom: 78px;
 }
 
 .place-holder .container {
@@ -452,7 +453,7 @@ body {
 }
 
 .place-holder-mens {
-    margin-bottom: 70px;
+    margin-bottom: 55px;
 }
 
 .container-mens {
@@ -482,7 +483,7 @@ body {
 
 .page-sidebar-left .sidebar .icon {
     font-size: 3rem;
-    margin-top: 15px;
+    padding-top: 30px;
     width: 0;
     margin-left: 135px;
 
@@ -810,6 +811,7 @@ body {
 
     .hide-menu {
         display: none;
+        margin-bottom: 0px;
     }
 
     .left-filter-bar {
@@ -1047,9 +1049,9 @@ body {
         margin: 0 auto;
     }
 
-    .d-none .mens-cards .image-mens {
-        height: 250px;
-    }
+    .d-none .mens-cards {
+        width: 95%;
+        }
 
     .pic-product .product-grid {
         width: 100%;

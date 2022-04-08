@@ -811,10 +811,6 @@ $( "#amount6" ).text(`${$sliderRange6.slider("values",0)} - ${$sliderRange6.slid
 
 
 
-/*
-
-*/
-
 
 
 
